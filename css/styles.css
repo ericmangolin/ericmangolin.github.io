@@ -1,0 +1,202 @@
+/*--------------------------------------------------*/
+body{
+    background-color: #f6f8fa;
+}
+/*--------------------------------------------------*/
+.container-logo{
+    text-align: center;
+}
+/*--------------------------------------------------*/
+.navbar-brand img{
+    width: 6em;
+    padding: 0px;
+    margin: 0px;
+}
+#btn-menu{
+    width: 10rem;
+}
+/*--------------------------------------------------*/
+.icon-media svg{
+    width: 1.5rem;
+}
+/*--------------------------------------------------*/
+/*Configuração Ícones Mídias Sociais topo*/
+.media{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+}
+/*--------------------------------------------------*/
+/*Configuração Texto artigos*/
+.texto-artigo{
+    text-align: justify;
+    font-size: 1em;
+    margin-bottom: 0em;
+    padding-bottom: 0em;
+}
+.fonte-artigo{
+    font-size: 0.8em;
+    color: black;
+    text-align: right;
+}
+.link-artigo{
+    color: black;
+}
+.botaovejamenos a{
+    text-align: center;
+    color: tomato;
+}
+#oculta-artigo{
+    color: tomato;
+}
+.botaovejamais > a{
+    text-align: right;
+    color: tomato;
+}
+.link-comentario{
+    height: 1rem;
+}
+/*--------------------------------------------------*/
+/*Configuração Imagem artigo*/
+.imagem-artigo{
+    display: flexbox;
+    justify-content: center;
+}
+#img-artigo{
+    align-self: initial;
+}
+/*--------------------------------------------------*/
+/*Separador horizontal*/
+.separador-artigo{
+    border: 0px;
+    background-color: #d2d6da;
+    height: 0.2em;
+    /*background-image: linear-gradient(to right, transparent, #CCC, transparent);*/
+}
+/*--------------------------------------------------*/
+/*Redes Sociais pós comentário*/
+.social-coment{
+    text-align: center;
+    justify-self: center;
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+.icon-media-coment{
+    margin-right: 1em;
+    border-color: #343a40;
+    ;
+}
+.social-coment > p{
+    padding: 0;
+    margin: 0.5rem;
+    text-decoration: underline;
+}
+/*--------------------------------------------------*/
+
+/*Separador vertical
+
+.separador-vertical{
+    display: flex;
+    justify-content: center;
+}
+
+.separador-coluna{
+    border: 0.1em solid gray;
+    height: 99%;
+    width: 0%;
+    align-self: center;
+}*/
+/*--------------------------------------------------*/
+/*Pesquisa*/
+.pesquisa{
+    background-color:rgb(221, 213, 213);
+    padding-top: 1rem;
+    margin: 0 0;
+    border: 0.1rem solid #343a40;
+    align-items: center;
+    align-content: center;
+}
+.lista-pesquisa > li{
+    padding-top: 1rem;
+    padding-left: 0px;
+    list-style-type: none;
+    margin: 0 0;
+}
+.pesquisa-icone{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.botao-radio{
+    margin-right: 0.5rem;
+    margin-left: 0;
+    padding: 0;
+    width: 3rem;
+    text-align: center;
+}
+.parceiro{
+    width: 90%;
+    background-color: #FFF;
+    text-align: center;
+    border-radius: 0.2rem;
+}
+.lista-parceiro{
+    padding: 0px 0px 0.6rem 0px;
+    margin: 0px 0px 0.5rem 0px;
+}
+#li-parceiro{
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+/*--------------------------------------------------*/
+/*Rodapé*/
+.rodape{
+    padding-top: 1rem;
+    font-size: 0.8rem;
+    text-align: center;
+    justify-self: baseline;
+    width: 100%;
+    height: 100px;
+    background-color: #343a40;
+    color: white;
+ }
+a.link-footer{
+    color: white;
+    text-decoration: underline;
+ }
+a.link-footer:hover{
+    color: yellow;
+    text-decoration: underline;
+ }
+ /*--------------------------------------------------*/
+
+article h3{
+    font-size: 1.5em;
+}
+
+.area-coment{
+    font-size: 0.8em;
+}
+
+.row-media{
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+
+
+.tgl1{
+    overflow: hidden;
+    width: 100px;
+    white-space: no-wrap;
+}
+
+
+
+#linkexpande{
+    padding: 0px;
+}
