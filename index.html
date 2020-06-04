@@ -1,474 +1,71 @@
-<!DOCTYPE HTML>
-<html lang="pt-br">
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>* Arte Fina *</title>
 
-<head>
-    <title>- Rock Blog -</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/styles_icons_midia">
-    <link rel="stylesheet" href="css/bootstrap-social.css">
-    <link rel="stylesheet" href="css/docs.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
-        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-
-    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script src="js/npm.js"></script>
-    <script src="js/jquery.js"></script>
-    <script src="js/docs.js"></script>
-    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
-
-</head>
-
-<body>
-    <header>
-
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container">
-                <div>
-                    <a class="navbar-brand" href="#">
-                        <img src="img/logo.png" alt="Blog do Rock">
-                    </a>
-                </div>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="navbarSite">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="container media collapse">
-                    <div class="collapse navbar-collapse ml-auto" id="navbarSite">
-                        <ul>
-                            <a href="#" class="icon-media" title="Facebook"><svg xmlns="http://www.w3.org/2000/svg"
-                                    width="25" height="25" viewBox="0 0 25 25" fill="none" stroke="white"
-                                    stroke-width="1" class="feather feather-facebook">
-                                    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
-                                </svg></a>
-                            <a href="#" class="icon-media" title="Instagram"><svg xmlns="http://www.w3.org/2000/svg"
-                                    width="25" height="25" viewBox="0 0 25 25" fill="none" stroke="white"
-                                    stroke-width="1" class="feather feather-instagram">
-                                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
-                                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
-                                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
-                                </svg></a>
-                            <a href="#" class="icon-media" title="Twitter"><svg xmlns="http://www.w3.org/2000/svg"
-                                    width="25" height="25" viewBox="0 0 25 25" fill="none" stroke="white"
-                                    stroke-width="1" class="feather feather-twitter">
-                                    <path
-                                        d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z">
-                                    </path>
-                                </svg></a>
-                            <a href="#" class="icon-media" title="YouTube"><svg xmlns="http://www.w3.org/2000/svg"
-                                    width="25" height="25" viewBox="0 0 25 25" fill="none" stroke="white"
-                                    stroke-width="1" class="feather feather-youtube">
-                                    <path
-                                        d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z">
-                                    </path>
-                                    <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon>
-                                </svg></a>
-                            <a href="#" class="icon-media" title="E-mail"><svg xmlns="http://www.w3.org/2000/svg"
-                                    width="25" height="25" viewBox="0 0 25 25" fill="none" stroke="white"
-                                    stroke-width="1" class="feather feather-mail">
-                                    <path
-                                        d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
-                                    </path>
-                                    <polyline points="22,6 12,13 2,6"></polyline>
-                                </svg></a>
-                        </ul>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    
+    </head>
+    <body>
+        <header>
+            <div class="container-fluid div-geral" style="background-color: rgb(245, 226, 184)">
+                
+                <div class="row align-items-center">
+                    
+                    <div class="col-lg-4 div-social">
+                        <a href="#"><ion-icon id="ico-social" size="large" name="logo-facebook"></ion-icon></a>
+                        <a href="#"><ion-icon id="ico-social" size="large" name="logo-instagram"></ion-icon></a>
+                        <a href="#"><ion-icon id="ico-social" size="large" name="mail-outline"></ion-icon></a>
+                        <a href="#"><ion-icon id="ico-social" size="large" name="logo-whatsapp"></ion-icon></a>
+                    </div>
+                    
+                    <div class="col-lg-4 div-logo">
+                            <img src="img/logo/logo_vetor_P.png">
+                    </div>
+                    
+                    <div class="col-lg-4 div-cadastro">
+                        <a href="#"><ion-icon id="ico-cadastro" size="large" name="person-add-outline"></ion-icon></a>
                     </div>
                 </div>
             </div>
-        </nav>
+        </header>
 
-    </header>
-
-    <div class="container-fluid" style="background-color: rgb(221, 213, 213)">
-        <nav class="navbar navbar-expand-lg">
-            <!--Dropdown
-            <div class="dropdown" style="background-color: blue">
-                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="menus" aria-expanded="false" aria-controls="menus">
-                    Menu
-                </button>
-            </div>-->
-            <div class="collapse navbar-collapse nav justify-content-center" id="menus">
-                <!-- 1 - MR - margin rigth
-                     2 - ML - margin left-->
-                <form class="container">
-                    <button id="btn-menu" class="btn btn-md btn-outline-dark active" type="button">Início</button>
-                    <button id="btn-menu" class="btn btn-md btn-outline-dark" type="button">Artistas</button>
-                    <button id="btn-menu" class="btn btn-md btn-outline-dark" type="button">Grupos</button>
-                    <button id="btn-menu" class="btn btn-md btn-outline-dark" type="button">Top10</button>
-                    <button id="btn-menu" class="btn btn-md btn-outline-dark" type="button">Letras</button>
-                    <button id="btn-menu" class="btn btn-md btn-outline-dark" type="button">Acordes</button>
-                </form>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Alterna navegação">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="#">Home<span class="sr-only">(Página atual)</span></a>
+                <a class="nav-item nav-link" href="#">Quem Somos</a>
+                <a class="nav-item nav-link" href="#">Produtos</a>
+                <a class="nav-item nav-link" href="#">Personalize</a>
+                <a class="nav-item nav-link" href="#">Fale Conosco</a>
+              </div>
             </div>
+          </nav>
 
-        </nav>
-    </div>
-
-    <br />
-
-    <!--INÍCIO DO CORPO DO SITE-->
-    <div class="container">
-
-        <div class="row justify-content-md-center">
-            <div class="col col-lg-9 col-12" id="div-grande">
-
-                <div class="row justify-content-md-center">
-                    <!--INÍCIO DO ARTIGO 1-->
-                    <div class="col col-lg-9 col-9" style="background-color: white">
-
-                        <article class="texto-artigo">
-
-                            <h3>A História do Rock</h3>
-
-                            <p class="texto-artigo">O rock 'n' roll é um gênero musical que teve origem nos Estados
-                                Unidos (EUA) a partir dos anos 1950, popularizando-se por todo o mundo. Mais do que um
-                                estilo musical com ritmo contagiante, é conhecido por ter um apelo comportamental e
-                                visual</p>
-
-                            <script>
-                                function fjanela(jnr, jact) {
-                                    jobj0 = document.getElementById("vejamais_" + jnr);
-                                    jobj1 = document.getElementById("vejamenos_" + jnr);
-                                    jobj2 = document.getElementById("invisivel_" + jnr);
-                                    jfoc = document.getElementById("forum_" + jnr);
-                                    jobj0.style.display = jact == "A" ? "none" : "inline";
-                                    jobj1.style.display = jact == "A" ? "inline" : "none";
-                                    jobj2.style.display = jact == "A" ? "inline" : "none";
-                                    if (jact == "F") {
-                                        jfoc.focus();
-                                    }
-                                }
-                            </script>
-
-                            <br />
-
-                            <span id="vejamais_5161" class="botaovejamais">
-                                <a href="javascript:fjanela('5161','A')" _fcksavedurl="javascript:fjanela('5161','A')">
-                                    <p>Continue lendo...</p>
-                                </a>
-                            </span>
-                            <span id="invisivel_5161" style="display:none"> cheio de irreverência e atitude. Geralmente,
-                                as bandas de rock são formadas por um vocalista, um baixista, um baterista e um ou dois
-                                guitarristas. Alguns grupos podem usar teclado ou percussão, dependendo do estilo, mas a
-                                guitarra elétrica é, desde os primórdios, a marca registrada.
-                                <p class="fonte-artigo">fonte: <a class="link-artigo"
-                                        href="https://brasilescola.uol.com.br/artes/rock.htm">brasilescola</a></p>
-                                <span id="vejamenos_5161" class="botaovejamenos"><br />
-                                    <a class="linkfecha" href="javascript:fjanela('5161','F')"
-                                        _fcksavedurl="javascript:fjanela('5161','F')">
-                                        <p><img width="40" height="40" alt="icone para fechar"
-                                                src="img\icon\IKONS\PNG\32\arrow_up.png"
-                                                style="background-color: tomato;" /><br />ocultar</p>
-                                    </a>
-                                </span>
-                            </span>
-
-                        </article>
-
-                        <div class="input-group">
-                            <input class="form-control" type="textarea" placeholder="Deixe seu comentário aqui"
-                                aria-label="Comentário" style="border-right: none">
-                            <div class="input-group-append">
-                                <div class="input-group-text" style="background-color: #FFF">
-                                    <a class="link-comentario" href="#"><i class="material-icons">forward</i></a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="social-coment">
-                            <p>Ou acesse nossas redes sociais:</p>
-                            <div class="row justify-content-center">
-                                <a href="#" class="icon-media-coment" title="Facebook"><svg width="25" height="25"
-                                        viewBox="0 0 25 25" fill="none" stroke="#343a40" stroke-width="2"
-                                        class="feather feather-facebook">
-                                        <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z">
-                                        </path>
-                                    </svg></a>
-                                <a href="#" class="icon-media-coment" title="Instagram"><svg width="25" height="25"
-                                        viewBox="0 0 25 25" fill="none" stroke="#343a40" stroke-width="2"
-                                        class="feather feather-instagram">
-                                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
-                                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
-                                        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
-                                    </svg></a>
-                                <a href="#" class="icon-media-coment" title="Twitter"><svg width="25" height="25"
-                                        viewBox="0 0 25 25" fill="none" stroke="#343a40" stroke-width="2"
-                                        class="feather feather-twitter">
-                                        <path
-                                            d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z">
-                                        </path>
-                                    </svg></a>
-                                <a href="#" class="icon-media-coment" title="YouTube"><svg width="25" height="25"
-                                        viewBox="0 0 25 25" fill="none" stroke="#343a40" stroke-width="2"
-                                        class="feather feather-youtube">
-                                        <path
-                                            d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z">
-                                        </path>
-                                        <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon>
-                                    </svg></a>
-                                <a href="#" class="icon-media-coment" title="E-mail"><svg width="25" height="25"
-                                        viewBox="0 0 25 25" fill="none" stroke="#343a40" stroke-width="2"
-                                        class="feather feather-mail">
-                                        <path
-                                            d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
-                                        </path>
-                                        <polyline points="22,6 12,13 2,6"></polyline>
-                                    </svg></a>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="col col-lg-3 col-3 imagem-artigo">
-
-                        <span id="img-artigo">
-                            <img class="mx-auto d-block" src="img/rock_heart.jpg" width="100%">
-                        </span>
-
-                    </div>
-                </div>
-                <!--SEPARADOR HORIZONTAL-->
-                <hr class="separador-artigo">
-                <br />
-                <!--INÍCIO DO ARTIGO 2-->
-                <div class="row">
-                    <div class="col col-lg-3 col-3 imagem-artigo">
-                        <span id="img-artigo">
-                            <img class="mx-auto d-block" src="img/Rock_hand_2.jpg" width="100%">
-                        </span>
-                    </div>
-
-                    <div class="col col-lg-9 col-9" style="background-color: white">
-                        <article>
-                            <h3>Os maiores Festivais de Rock do Mundo</h3>
-                            <p class="texto-artigo">Hard, Trash, Glam, Punk, Indie, Heavy Metal. Os nomes são muitos,
-                                mas o gênero é um só. Desde quando surgiu, como descendente direto do Blues americano, o
-                                Rock vem conquistando cada vez mais espaço e se renovando a cada dia.</p>
-
-                            <script>
-                                function fjanela(jnr, jact) {
-                                    jobj0 = document.getElementById("vejamais_" + jnr);
-                                    jobj1 = document.getElementById("vejamenos_" + jnr);
-                                    jobj2 = document.getElementById("invisivel_" + jnr);
-                                    jfoc = document.getElementById("forum_" + jnr);
-                                    jobj0.style.display = jact == "A" ? "none" : "inline";
-                                    jobj1.style.display = jact == "A" ? "inline" : "none";
-                                    jobj2.style.display = jact == "A" ? "inline" : "none";
-                                    if (jact == "F") {
-                                        jfoc.focus();
-                                    }
-                                }
-                            </script>
-                            <br />
-                            <span id="vejamais_5163" class="botaovejamais">
-                                <a id="linkexpande" href="javascript:fjanela('5163','A')"
-                                    _fcksavedurl="javascript:fjanela('5163','A')">
-                                    <p>Continue lendo...</p>
-                                </a>
-                            </span>
-                            <span id="invisivel_5163" style="display:none">
-                                <p>Prova disso são os festivais dedicados ao gênero, que são realizados anualmente nas
-                                    mais diversas partes do mundo. Então, como bons cidadãos globais, vamos dar uma
-                                    volta ao redor do globo para te mostrar o que rola em termos de festivais de rock.
-                                </p>
-                                <ul>
-                                    <li>Glastonbury: realizado anualmente na cidade de Somerset, Inglaterra. É
-                                        considerado o maior festival de música do mundo.</li>
-                                    <li>Rock in Rio: realizado na cidade do Rock, Rio de Janeiro, este é o maior
-                                        festival do Brasil e sem dúvidas um dos maiores do mundo.</li>
-                                    <li>Rock Werchter: realizado na cidade belga Werchter, o festival é voltado
-                                        exclusivamente ao rock. Apesar de pequeno e com pouca tradição, este festival se
-                                        destaca pela excelente organização e pelo clima de companheirismo entre o
-                                        público</li>
-                                    <li>Super Bock Super Rock: festival anual que acontece na capital de Portugal,
-                                        Lisboa. Leva o nome de uma das cervejas mais populares do país e, pelo bom clima
-                                        e atrações variadas</li>
-                                    <li>Rocklahoma: considerado um dos maiores eventos voltados ao rock nos Estados
-                                        Unidos, este festival toma lugar em, como o próprio nome já indica, Oklahoma
-                                    </li>
-                                    <li>WOA - Wacken Open Air: realizado anualmente em Wacken, pequena cidade alemã,
-                                        este é um festival dedicado exclusivamente ao heavy metal</li>
-                                    <li>Lollapalooza: ocorreu pela primeira vez em 1991, nos E.U.A. Hoje está presente
-                                        em diversos países e, além de muito rock, oferece plataforma para ONGs e outros
-                                        serviços sociais</li>
-                                    <li>Summer Sonic: seguindo uma tendência recorrente em festivais, o Summer Sonic
-                                        ocorre em duas cidades simultaneamente, Osaka e Tóquio, no Japão. Diversão em
-                                        dobro para os amantes do Rock and Roll</li>
-                                </ul>
-
-                                <p class="fonte-artigo">fonte: <a class="link-artigo"
-                                        href="https://www.cabecalivre.com.br/cultura/os-maiores-festivais-de-rock-do-mundo">cabecalivre</a>
-                                </p>
-                                <span id="vejamenos_5163" class="botaovejamenos"><br />
-                                    <a class="linkfecha" href="javascript:fjanela('5163','F')"
-                                        _fcksavedurl="javascript:fjanela('5163','F')">
-                                        <p><img width="40" height="40" alt="icone para fechar"
-                                                src="img\icon\IKONS\PNG\32\arrow_up.png"
-                                                style="background-color: tomato;" /><br>ocultar</p>
-                                    </a>
-                                </span>
-                            </span>
-                        </article>
-
-                        <div class="input-group">
-                            <input class="form-control" type="textarea" placeholder="Deixe seu comentário aqui"
-                                aria-label="Comentário" style="border-right: none">
-                            <div class="input-group-append">
-                                <div class="input-group-text" style="background-color: #FFF">
-                                    <a class="link-comentario" href="#"><i class="material-icons">forward</i></a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="social-coment">
-                            <p>Ou acesse nossas redes sociais:</p>
-                            <div class="row justify-content-center">
-                                <a href="#" class="icon-media-coment" title="Facebook"><svg width="25" height="25"
-                                        viewBox="0 0 25 25" fill="none" stroke="#343a40" stroke-width="2"
-                                        class="feather feather-facebook">
-                                        <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z">
-                                        </path>
-                                    </svg></a>
-                                <a href="#" class="icon-media-coment" title="Instagram"><svg width="25" height="25"
-                                        viewBox="0 0 25 25" fill="none" stroke="#343a40" stroke-width="2"
-                                        class="feather feather-instagram">
-                                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
-                                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
-                                        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
-                                    </svg></a>
-                                <a href="#" class="icon-media-coment" title="Twitter"><svg width="25" height="25"
-                                        viewBox="0 0 25 25" fill="none" stroke="#343a40" stroke-width="2"
-                                        class="feather feather-twitter">
-                                        <path
-                                            d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z">
-                                        </path>
-                                    </svg></a>
-                                <a href="#" class="icon-media-coment" title="YouTube"><svg width="25" height="25"
-                                        viewBox="0 0 25 25" fill="none" stroke="#343a40" stroke-width="2"
-                                        class="feather feather-youtube">
-                                        <path
-                                            d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z">
-                                        </path>
-                                        <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon>
-                                    </svg></a>
-                                <a href="#" class="icon-media-coment" title="E-mail"><svg width="25" height="25"
-                                        viewBox="0 0 25 25" fill="none" stroke="#343a40" stroke-width="2"
-                                        class="feather feather-mail">
-                                        <path
-                                            d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
-                                        </path>
-                                        <polyline points="22,6 12,13 2,6"></polyline>
-                                    </svg></a>
-                            </div>
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-            <!--SEPARADOR VERTICAL                
-                <div class="separador-vertical">
-                    <hr class="separador-coluna"/>
-                </div>-->
-            <!--PESQUISA-->
-            <div class="col justify-content-center pesquisa">
-
-                <div class="input-group">
-                    <input class="form-control" type="search" placeholder="Pesquisar" aria-label="Pesquisar"
-                        style="border-right: none">
-                    <div class="input-group-append">
-                        <div class="input-group-text" style="background-color: #FFF">
-                            <a href="#"><i class="fas fa-search"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row justify-content-center">
-                    <div class="col col-lg-2 pesquisa-lista">
-                        <ul class="lista-pesquisa">
-                            <li><i class="fab fa-angellist"></i></li>
-                            <li><i class="fab fa-angellist"></i></li>
-                            <li><i class="fab fa-angellist"></i></li>
-                            <li><i class="fab fa-angellist"></i></li>
-                            <li><i class="fab fa-angellist"></i></li>
-                            <li><i class="fab fa-angellist"></i></li>
-                        </ul>
-                    </div>
-
-                    <div class="col col-lg-10 pesquisa-lista">
-                        <ul class="lista-pesquisa">
-                            <li>Artigos</li>
-                            <li>Revistas</li>
-                            <li>Reportagens</li>
-                            <li>Posts</li>
-                            <li>Parceiros</li>
-                            <li>Páginas de Rock</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col parceiro">
-                            <h3>Parceiros</h3>
-                            <ul class="lista-parceiro">
-                                <a href="#">
-                                    <li id="li-parceiro">Rocklândia</li>
-                                </a>
-                                <a href="#">
-                                    <li id="li-parceiro">Rockeria</li>
-                                </a>
-                                <a href="#">
-                                    <li id="li-parceiro">89 Rock</li>
-                                </a>
-                                <a href="#">
-                                    <li id="li-parceiro">Nacional Rock</li>
-                                </a>
-                                <a href="#">
-                                    <li id="li-parceiro">Mundial Rock</li>
-                                </a>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="col">
-                        <div class="row justify-content-center">
-                            <h3>Rádio Rock</h3>
-                        </div>
-                        <div class="row justify-content-center">
-                            <div class="botao-radio">
-                                <i class="material-icons">play_circle_outline</i>
-                            </div>
-                            <div class="botao-radio">
-                                <i class="material-icons">pause_circle_outline</i>
-                            </div>
-                            <div class="botao-radio">
-                                <i class="material-icons">check_box_outline_blank</i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="container-fluid fundo">
+            <img class="img-fluid img-fundo" src="img/background/3.jpg">
+            <p>teste</p>
         </div>
-    </div>
+                    
+        <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+        <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/npm.js"></script>
+        <script src="js/jquery.js"></script>
+        <script src="js/docs.js"></script>
 
-    <br />
-
-    <!--RODAPÉ-->
-    <div class="container-fluid rodape">
-        <p>Desenvolvido por Éric Mangolim</p>
-        <p>Ícones de mídias sociais com Design de
-            <a class="link-footer" href="https://ionicons.com">Ionicons</a>,
-            <a class="link-footer" href="https://https://fontawesome.com.com"> Fontawesome</a>
-        </p>
-    </div>
-
-</body>
-
+    </body>
 </html>

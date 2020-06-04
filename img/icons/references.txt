@@ -1,0 +1,38 @@
+IONICONS
+
+
+https://ionicons.com/
+
+
+<script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+
+
+<ion-icon name="heart"></ion-icon>
+
+----------------------------------------------------------
+
+
+ICONS8
+
+https://icons8.com/icon/108643/facebook
+
+FACEBOOK
+<img src="https://img.icons8.com/bubbles/50/000000/facebook.png"/>
+
+<a href="https://icons8.com/icon/108643/facebook-old">Facebook Old icon by Icons8</a>
+
+INSTAGRAM
+<img src="https://img.icons8.com/cotton/64/000000/instagram-new.png"/>
+
+<a href="https://icons8.com/icon/68184/instagram">Instagram icon by Icons8</a>
+
+----------------------------------------------------------
+https://feathericons.com/
+----------------------------------------------------------
+https://github.com/feathericons/feather#feather
+----------------------------------------------------------
+http://demo.amitjakhu.com/dripicons/
+----------------------------------------------------------
+http://ikons.piotrkwiatkowski.co.uk/
+----------------------------------------------------------
+https://icons8.com/icons
