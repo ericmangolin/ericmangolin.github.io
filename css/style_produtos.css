@@ -1,4 +1,3 @@
-
 /*--- LOGO ---*/
 /*Para alinhamento vertical o pai tem que ter display flex*/
 .div-logo{
@@ -85,21 +84,24 @@ a:hover > #ico-cadastro{
     display: flex;
     width: 100%;
     height: 100%;
-    font-size: 1.5rem;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-    position: relative;
-    align-items: center;
-    align-self: center;
-    padding-top: 2rem;
 }
 
-@media(max-width: 540px){
+/* TELAS EXTRA PEQUENAS - RETRATO */
+@media(max-width: 575.98px){
+    .separador-vertical{
+        color: #1e5953;
+        margin: 0px 0px 0px 0px;
+        padding: 0px 1rem 0px 1rem;
+    }  
+    .div-social{
+        display: flex;
+        margin: 0px;
+    }
     .lin-rodape{
         color: #1e5953;
         background-color: #f8f9fa;
         font-weight: bold;
-        font-size: 0.7rem;
+        font-size: 0.5rem;
         display: flex;
     }
     .lin-rodape img{
@@ -114,20 +116,39 @@ a:hover > #ico-cadastro{
     .div-meio{
         width: 100%;
         height: 100%;
-        font-size: 0.8rem;
-        font-family: 'Times New Roman', Times, serif;
-        text-align: center;
-        position: relative;
-        align-items: center;
-        align-self: center;
-        padding-top: 2rem;
     }
+    .div-card{
+        padding-right: 1px;
+        padding-left: 1px;
+    }
+    .card{
+        width: 100%;
+        height: 100%;
+    }
+    .card-title{
+        font-size: 100%;
+        font-weight: bold;
+    }
+    .card-text{
+        text-align: center;
+        font-size: 80%;
+    }
+    .card-body{
+        text-align: center;
+    }
+    .card-body > a{
+        align-self: center;
+        width: 90%;
+        padding: 0px;
+        font-size: 1rem;
+    }
+
     .div-rodape{
-        margin-top: 0rem;
+        margin-top: 8rem;
     }
     .div-logo > img{
         width: 10rem;
-        padding: 1rem 0 1rem 0;
+        padding: 0.3rem 0px 0.3rem 0px;
         display: inline-block;
         margin-left: auto;
         margin-right: auto;
@@ -148,3 +169,136 @@ a:hover > #ico-cadastro{
         color:#1e5953;
     }
 }
+
+/* TELAS EXTRA PEQUENAS - PAISAGEM */
+@media(min-width: 576px) and (max-width: 767.98px){
+    .separador-vertical{
+        color: #1e5953;
+        margin: 0px 0px 0px 0px;
+        padding: 0px 1rem 0px 1rem;
+    }  
+    .div-social{
+        display: flex;
+        margin: 0px;
+    }
+    .lin-rodape{
+        color: #1e5953;
+        background-color: #f8f9fa;
+        font-weight: bold;
+        font-size: 0.7rem;
+        display: flex;
+    }
+    .lin-rodape img{
+        width: 8rem;
+        margin: 0.5rem auto 0.5rem auto;
+        display: flex;
+    }
+    .ico-rodape{
+        margin-right: 0.5rem;
+        size: small;
+    }
+    .div-meio{
+        width: 100%;
+        height: 100%;
+        display: flex;
+    }
+    
+    .div-rodape{
+        margin-top: 8rem;
+    }
+    .div-logo > img{
+        width: 10rem;
+        padding: 0.3rem 0px 0.3rem 0px;
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #ico-social{
+        width: 1.5rem;
+        color: #26a699;
+        margin-left: 0.6rem;
+    }
+    #ico-cadastro{
+        width: 1.5rem;
+        color: #26a699;
+    }
+    a:hover > #ico-social{
+        color:#1e5953;
+    }
+    a:hover > #ico-cadastro{
+        color:#1e5953;
+    }
+}
+
+/* TELAS MÉDIOS - RETRATO */
+@media (min-width: 768px) and (max-width: 991.98px){
+    .separador-vertical{
+        color: #1e5953;
+        margin: 0px 0px 0px 0px;
+        padding: 0px 1rem 0px 1rem;
+    }  
+    .div-social{
+        display: flex;
+        margin: 0px;
+    }
+    .lin-rodape{
+        color: #1e5953;
+        background-color: #f8f9fa;
+        font-weight: bold;
+        font-size: 0.7rem;
+        display: flex;
+    }
+    .lin-rodape img{
+        width: 8rem;
+        margin: 0.5rem auto 0.5rem auto;
+        display: flex;
+    }
+    .ico-rodape{
+        margin-right: 0.5rem;
+        size: small;
+    }
+    .div-meio{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 100%;
+    }
+    .div-rodape{
+        margin-top: 8rem;
+    }
+    .div-logo{
+        width: 100%;
+        padding: 0px 0px 0px 0px;
+        display: flex;
+    }
+    .div-logo > img{
+        width: 10rem;
+        padding: 0.3rem 0px 0.3rem 0px;
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    #ico-social{
+        width: 1.5rem;
+        color: #26a699;
+        margin-left: 0.6rem;
+    }
+    #ico-cadastro{
+        width: 1.5rem;
+        color: #26a699;
+    }
+    a:hover > #ico-social{
+        color:#1e5953;
+    }
+    a:hover > #ico-cadastro{
+        color:#1e5953;
+    }
+}
+/*@media (min-width: 992px) and (max-width: 1199.98px){
+
+}
+
+@media (min-width: 1200px){
+
+}*/

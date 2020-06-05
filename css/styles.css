@@ -1,10 +1,3 @@
-.fundo{
-    background-image: url("img/background/3.jpg");
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-size: 100% 100%;
-}
 /*--- LOGO ---*/
 /*Para alinhamento vertical o pai tem que ter display flex*/
 .div-logo{
@@ -61,7 +54,7 @@ a:hover > #ico-cadastro{
 /*------------------------------------*/
 /*--- RODAPÉ ---*/
 .div-rodape{
-    margin-top: 18rem;
+    margin-top: 10rem;
 }
 .lin-rodape{
     color: #1e5953;
@@ -95,8 +88,17 @@ a:hover > #ico-cadastro{
     background-repeat: no-repeat;
     justify-content: center;
 }
-
-@media(max-width: 540px){
+/* TELAS EXTRA PEQUENAS - RETRATO */
+@media(max-width: 575.98px){
+    .separador-vertical{
+        color: #1e5953;
+        margin: 0px 0px 0px 0px;
+        padding: 0px 1rem 0px 1rem;
+    }  
+    .div-social{
+        display: flex;
+        margin: 0px;
+    }
     .lin-rodape{
         color: #1e5953;
         background-color: #f8f9fa;
@@ -114,18 +116,15 @@ a:hover > #ico-cadastro{
         size: small;
     }
     .div-meio{
-        width: 100px;
-        height: 100px;
-        background-position: center;
-        background-repeat: no-repeat;
-        justify-content: center;
+        width: 100%;
+        height: 100%;
     }
     .div-rodape{
         margin-top: 8rem;
     }
     .div-logo > img{
         width: 10rem;
-        padding: 1rem 0 1rem 0;
+        padding: 0.3rem 0px 0.3rem 0px;
         display: inline-block;
         margin-left: auto;
         margin-right: auto;
@@ -146,3 +145,132 @@ a:hover > #ico-cadastro{
         color:#1e5953;
     }
 }
+
+/* TELAS EXTRA PEQUENAS - PAISAGEM */
+@media(min-width: 576px) and (max-width: 767.98){
+    .separador-vertical{
+        color: #1e5953;
+        margin: 0px 0px 0px 0px;
+        padding: 0px 1rem 0px 1rem;
+    }  
+    .div-social{
+        display: flex;
+        margin: 0px;
+    }
+    .lin-rodape{
+        color: #1e5953;
+        background-color: #f8f9fa;
+        font-weight: bold;
+        font-size: 0.7rem;
+        display: flex;
+    }
+    .lin-rodape img{
+        width: 8rem;
+        margin: 0.5rem auto 0.5rem auto;
+        display: flex;
+    }
+    .ico-rodape{
+        margin-right: 0.5rem;
+        size: small;
+    }
+    .div-meio{
+        width: 100%;
+        height: 100%;
+    }
+    .div-rodape{
+        margin-top: 8rem;
+    }
+    .div-logo > img{
+        width: 10rem;
+        padding: 0.3rem 0px 0.3rem 0px;
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #ico-social{
+        width: 1.5rem;
+        color: #26a699;
+        margin-left: 0.6rem;
+    }
+    #ico-cadastro{
+        width: 1.5rem;
+        color: #26a699;
+    }
+    a:hover > #ico-social{
+        color:#1e5953;
+    }
+    a:hover > #ico-cadastro{
+        color:#1e5953;
+    }
+}
+
+/* TELAS MÉDIOS - RETRATO */
+@media (min-width: 768px) and (max-width: 991.98px){
+    .separador-vertical{
+        color: #1e5953;
+        margin: 0px 0px 0px 0px;
+        padding: 0px 1rem 0px 1rem;
+    }  
+    .div-social{
+        display: flex;
+        margin: 0px;
+    }
+    .lin-rodape{
+        color: #1e5953;
+        background-color: #f8f9fa;
+        font-weight: bold;
+        font-size: 0.7rem;
+        display: flex;
+    }
+    .lin-rodape img{
+        width: 8rem;
+        margin: 0.5rem auto 0.5rem auto;
+        display: flex;
+    }
+    .ico-rodape{
+        margin-right: 0.5rem;
+        size: small;
+    }
+    .div-meio{
+        width: 100%;
+        height: 100%;
+    }
+    .div-rodape{
+        margin-top: 8rem;
+    }
+    .div-logo{
+        width: 100%;
+        padding: 0px 0px 0px 0px;
+        display: flex;
+    }
+    .div-logo > img{
+        width: 10rem;
+        padding: 0.3rem 0px 0.3rem 0px;
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    #ico-social{
+        width: 1.5rem;
+        color: #26a699;
+        margin-left: 0.6rem;
+    }
+    #ico-cadastro{
+        width: 1.5rem;
+        color: #26a699;
+    }
+    a:hover > #ico-social{
+        color:#1e5953;
+    }
+    a:hover > #ico-cadastro{
+        color:#1e5953;
+    }
+}
+/*@media (min-width: 992px) and (max-width: 1199.98px){
+
+}
+
+@media (min-width: 1200px){
+
+}*/
