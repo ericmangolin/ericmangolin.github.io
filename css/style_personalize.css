@@ -1,10 +1,4 @@
-.fundo{
-    background-image: url("img/background/3.jpg");
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-size: 100% 100%;
-}
+
 /*--- LOGO ---*/
 /*Para alinhamento vertical o pai tem que ter display flex*/
 .div-logo{
@@ -61,7 +55,7 @@ a:hover > #ico-cadastro{
 /*------------------------------------*/
 /*--- RODAPÉ ---*/
 .div-rodape{
-    margin-top: 18rem;
+    margin-top: 0rem;
 }
 .lin-rodape{
     color: #1e5953;
@@ -87,13 +81,9 @@ a:hover > #ico-cadastro{
     size: large;
 }
 
-
-.div-meio{
-    width: 500px;
-    height: 200px;
-    background-position: center;
-    background-repeat: no-repeat;
-    justify-content: center;
+.div-meio a{
+    display: flex;
+    width: 600px;
 }
 
 @media(max-width: 540px){
@@ -113,15 +103,13 @@ a:hover > #ico-cadastro{
         margin-right: 0.5rem;
         size: small;
     }
-    .div-meio{
-        width: 100px;
-        height: 100px;
-        background-position: center;
-        background-repeat: no-repeat;
-        justify-content: center;
+    .div-meio a{
+        display: flex;
+        width: 100%;
+        height: 100%;
     }
     .div-rodape{
-        margin-top: 8rem;
+        margin-top: 0rem;
     }
     .div-logo > img{
         width: 10rem;
