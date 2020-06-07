@@ -1,0 +1,293 @@
+/*--- LOGO ---*/
+/*Para alinhamento vertical o pai tem que ter display flex*/
+.div-logo{
+    width: 100%;
+    padding: 0px 0px 0px 0px;
+    display: flex;
+}
+.div-logo > img{
+    width: 15rem;
+    padding: 1rem 0 1rem 0;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#ico-social{
+    width: 1.7rem;
+    color: #26a699;
+    margin-left: 0.6rem;
+}
+#ico-cadastro{
+    width: 1.7rem;
+    color: #26a699;
+}
+a:hover > #ico-social{
+    color:#1e5953;
+}
+
+a:hover > #ico-cadastro{
+    color:#1e5953;
+}
+.separador-vertical{
+    color: #1e5953;
+    margin: 0px 0px 1.2rem 0px;
+    vertical-align: auto;
+    padding: 0px 1rem 0px 1rem;
+}
+/*------------------------------------*/
+.btn-outline-success{
+    color: #26a699;
+    border: #26a699;
+}
+.btn-outline-success a:hover{
+    color: #1e5953;
+    border: #1e5953;
+}
+/*--- CARROUSSEL ---*/
+.div-carroussel{
+    border: solid black 1px;
+    height: 20rem;
+}
+.img-carrossel{
+    height: 19.9rem;
+}
+/*------------------------------------*/
+/*--- RODAPÉ ---*/
+.div-rodape{
+    margin-top: 10rem;
+}
+.lin-rodape{
+    color: #1e5953;
+    background-color: #f8f9fa;
+    font-weight: bold;
+    font-size: 1rem;
+    display: flex;
+}
+.lin-rodape img{
+    width: 8rem;
+    margin: 1.5rem auto 1rem auto;
+    display: flex;
+}
+.lin-rodape p{
+    margin: 0px;
+}
+.div-endereco{
+    display: flexbox;
+    padding: 1rem 0px 1rem 0px;
+}
+.ico-rodape{
+    margin-right: 1rem;
+    size: large;
+}
+
+
+.div-meio{
+    width: 500px;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: center;
+}
+.div-cadastro{
+    padding-top: 1.5rem;
+    text-align: center;
+    color: #1e5953
+}
+.div-cadastro #p-titulo{
+    font-weight: bold;
+    font-size: 2rem;
+}.div-cadastro #p-descricao{
+    font-size: 1.5rem;
+}
+.main{
+    position: relative;
+}
+.div-cadastro-form{
+    position: relative;
+}
+/* TELAS EXTRA PEQUENAS - RETRATO */
+@media(max-width: 575.98px){
+    .separador-vertical{
+        color: #1e5953;
+        margin: 0px 0px 0px 0px;
+        padding: 0px 1rem 0px 1rem;
+    }  
+    .div-social{
+        display: flex;
+        margin: 0px;
+    }
+    .lin-rodape{
+        color: #1e5953;
+        background-color: #f8f9fa;
+        font-weight: bold;
+        font-size: 0.7rem;
+        display: flex;
+    }
+    .lin-rodape img{
+        width: 8rem;
+        margin: 0.5rem auto 0.5rem auto;
+        display: flex;
+    }
+    .ico-rodape{
+        margin-right: 0.5rem;
+        size: small;
+    }
+    .div-meio{
+        width: 100%;
+        height: 100%;
+    }
+    .div-rodape{
+        margin-top: 8rem;
+    }
+    .div-logo > img{
+        width: 10rem;
+        padding: 0.3rem 0px 0.3rem 0px;
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #ico-social{
+        width: 1.5rem;
+        color: #26a699;
+        margin-left: 0.6rem;
+    }
+    #ico-cadastro{
+        width: 1.5rem;
+        color: #26a699;
+    }
+    a:hover > #ico-social{
+        color:#1e5953;
+    }
+    a:hover > #ico-cadastro{
+        color:#1e5953;
+    }
+}
+
+/* TELAS EXTRA PEQUENAS - PAISAGEM */
+@media(min-width: 576px) and (max-width: 767.98){
+    .separador-vertical{
+        color: #1e5953;
+        margin: 0px 0px 0px 0px;
+        padding: 0px 1rem 0px 1rem;
+    }  
+    .div-social{
+        display: flex;
+        margin: 0px;
+    }
+    .lin-rodape{
+        color: #1e5953;
+        background-color: #f8f9fa;
+        font-weight: bold;
+        font-size: 0.7rem;
+        display: flex;
+    }
+    .lin-rodape img{
+        width: 8rem;
+        margin: 0.5rem auto 0.5rem auto;
+        display: flex;
+    }
+    .ico-rodape{
+        margin-right: 0.5rem;
+        size: small;
+    }
+    .div-meio{
+        width: 100%;
+        height: 100%;
+    }
+    .div-rodape{
+        margin-top: 8rem;
+    }
+    .div-logo > img{
+        width: 10rem;
+        padding: 0.3rem 0px 0.3rem 0px;
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #ico-social{
+        width: 1.5rem;
+        color: #26a699;
+        margin-left: 0.6rem;
+    }
+    #ico-cadastro{
+        width: 1.5rem;
+        color: #26a699;
+    }
+    a:hover > #ico-social{
+        color:#1e5953;
+    }
+    a:hover > #ico-cadastro{
+        color:#1e5953;
+    }
+}
+
+/* TELAS MÉDIOS - RETRATO */
+@media (min-width: 768px) and (max-width: 991.98px){
+    .separador-vertical{
+        color: #1e5953;
+        margin: 0px 0px 0px 0px;
+        padding: 0px 1rem 0px 1rem;
+    }  
+    .div-social{
+        display: flex;
+        margin: 0px;
+    }
+    .lin-rodape{
+        color: #1e5953;
+        background-color: #f8f9fa;
+        font-weight: bold;
+        font-size: 0.7rem;
+        display: flex;
+    }
+    .lin-rodape img{
+        width: 8rem;
+        margin: 0.5rem auto 0.5rem auto;
+        display: flex;
+    }
+    .ico-rodape{
+        margin-right: 0.5rem;
+        size: small;
+    }
+    .div-meio{
+        width: 100%;
+        height: 100%;
+    }
+    .div-rodape{
+        margin-top: 8rem;
+    }
+    .div-logo{
+        width: 100%;
+        padding: 0px 0px 0px 0px;
+        display: flex;
+    }
+    .div-logo > img{
+        width: 10rem;
+        padding: 0.3rem 0px 0.3rem 0px;
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    #ico-social{
+        width: 1.5rem;
+        color: #26a699;
+        margin-left: 0.6rem;
+    }
+    #ico-cadastro{
+        width: 1.5rem;
+        color: #26a699;
+    }
+    a:hover > #ico-social{
+        color:#1e5953;
+    }
+    a:hover > #ico-cadastro{
+        color:#1e5953;
+    }
+}
+/*@media (min-width: 992px) and (max-width: 1199.98px){
+
+}
+
+@media (min-width: 1200px){
+
+}*/
